@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Form</title>
+</head>
+<body>
+    <h1>Vehicle Form</h1>
+    <hr>
+    <form>
+        <label for="name">Name:<span>*</span></label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:<span>*</span></label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="vehicle">Select Vehicle Type:<span>*</span></label><br><br>
+        <select id="vehicle" name="vehicle">
+            <option value="car">Car</option>
+            <option value="bike">Bike</option>
+            <option value="bus">Bus</option>
+            <option value="truck">Truck</option>
+            <option value="electric">Electric Vehicle</option>
+        </select><br><br>
+        <div>
+            <label for="comments">Comments:<span>*</span></label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        </div>
+
+        <div>
+            <label>Preferred Contact Method:<span>*</span></label><br>
+            <input type="radio" id="contact_email" name="contact_method" value="email">
+            <label for="contact_email">Email</label><br>
+            <input type="radio" id="contact_phone" name="contact_method" value="phone">
+            <label for="contact_phone">Phone</label><br><br>
+        </div><br>
+        <div>
+            <label for="subscribe">Subscribe:<span>*</span></label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        </div><br>
+        <div>
+            <label for="file">Upload File:<span>*</span></label><br><br>
+            <input type="file" id="file" name="file"><br><br>
+        </div><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
