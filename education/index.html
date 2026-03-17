@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Education Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <!-- Only ONE Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="home.css">
+
+    <style>
+        body {
+            font-family: "Noto Sans JP", sans-serif;
+        }
+
+        i {
+            margin-right: 8px;
+            color: #2c3e50;
+            font-size: 30px; /* make visible */
+        }
+
+        nav i {
+            color: #007bff;
+        }
+    </style>
 </head>
 
+
 <body>
+    <i class="fa-solid fa-heart"></i>
+    
+
+    <!-- ✅ Single Heading -->
+    <h1><i class="fa-solid fa-graduation-cap"></i> Importance of Education</h1>
+
+    <!-- ✅ Navigation (FIXED) -->
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="school.html">Schools</a></li>
-            <li><a href="college.html">Colleges</a></li>
-            <li><a href="online.html">Online Learning</a></li>
-            <li><a href="examination.html">Examinations</a></li>
-            <li><a href="career.html">Career Opportunities</a></li>
-            <li><a href="website.html">Website</a></li>
+            <li><a href="home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="school.html"><i class="fa-solid fa-school"></i> Schools</a></li>
+            <li><a href="college.html"><i class="fa-solid fa-building-columns"></i> Colleges</a></li>
+            <li><a href="online.html"><i class="fa-solid fa-laptop"></i> Online Learning</a></li>
+            <li><a href="examination.html"><i class="fa-solid fa-file-pen"></i> Examinations</a></li>
+            <li><a href="career.html"><i class="fa-solid fa-briefcase"></i> Career</a></li>
         </ul>
     </nav>
-    <b>Welcome to Education World</b>
 
-    <h1>Welcome to Education World</h1>
-    <p>This page provides information about education and learning.
-        Education helps people gain knowledge and develop skills.</p>
+    <!-- Map -->
+    <h2><i class="fa-solid fa-location-dot"></i> Location</h2>
+    <iframe src="https://www.google.com/maps?q=Adichunchanagiri%20Institute%20of%20Technology&output=embed" width="600"
+        height="400" style="border:0;">
+    </iframe>
 
-    <h2>Schools</h2>
-    <p>Schools provide basic education to students.
-        They help children learn subjects like math, science, and language.</p>
+    <h2><i class="fa-solid fa-book-open"></i> Welcome to Education World</h2>
+    <p>This page provides information about education and learning.</p>
 
-    <h3>Colleges</h3>
-    <p>Colleges offer higher education and professional courses.
-        Students choose their career paths at this level.</p>
+    <h2><i class="fa-solid fa-school"></i> Schools</h2>
+    <p>Schools provide basic education to students.</p>
 
-    <h4>Online Learning</h4>
-    <p>Online learning allows students to study from home using the internet.
-        It provides flexible and easy access to education.</p>
+    <h3><i class="fa-solid fa-user-graduate"></i> Colleges</h3>
+    <p>Colleges offer higher education and professional courses.</p>
 
-    <h5>Examinations</h5>
-    <p>Examinations are conducted to test students' knowledge and understanding of subjects.</p>
+    <h4><i class="fa-solid fa-laptop"></i> Online Learning</h4>
+    <p>Online learning allows students to study from home.</p>
 
-    <h6>Career Opportunities</h6>
-    <p>Education opens doors to various career opportunities and helps individuals achieve success in life.</p>
+    <h5><i class="fa-solid fa-file-pen"></i> Examinations</h5>
+    <p>Examinations test students' knowledge.</p>
+
+    <h6><i class="fa-solid fa-briefcase"></i> Career Opportunities</h6>
+    <p>Education opens career opportunities.</p>
 
     <ul>
         <li><sub>schools</sub></li>
@@ -68,7 +97,41 @@
             life.</strong></p>
     <p><i>Education is the key to unlocking your potential and building a successful future.</i></p>
     <p><em>Invest in your education and unlock your full potential.</em></p>
-    <mark>Education is the foundation of a successful life.</mark><br>
+    <mark>Education is the foundation of a successful life.</mark><br><br><br>
+    <hr>
+    <h2>Benefits of Education</h2>
+    <p>Education provides numerous benefits, including:</p>
+    <section id="courses">
+        <h2>Courses Available</h2>
+
+        <table border="5">
+            <tr>
+                <th>Course Name</th>
+                <th>Duration</th>
+                <th>Level</th>
+            </tr>
+
+            <tr>
+                <td>HTML & Web Development</td>
+                <td>3 Months</td>
+                <td>Beginner</td>
+            </tr>
+
+            <tr>
+                <td>Java Programming</td>
+                <td>4 Months</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>Python Programming</td>
+                <td>3 Months</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
 
     <h1>Education Overview</h1>
     <hr>
@@ -97,11 +160,14 @@
         Knowledge gained is <strong><em>lifelong</em></strong> and transformative.
     </p>
     <img src="education.jpeg" alt="Education Image" width="800" height="500">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGwavjDRlPnvXFH6b0MEB-V-bmlm26-BElUQ&s" alt="Education Image" width="800" height="500">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGwavjDRlPnvXFH6b0MEB-V-bmlm26-BElUQ&s"
+        alt="Education Image" width="800" height="500">
     <video src="education.mp4" controls height="500" width="1500"></video>
-     <video height="400" width="800" controls autoplay>
-        <source src="https://v.ftcdn.net/15/99/46/69/700_F_1599466929_kEoPz5dXQQhN9rtUxPEhVQP7X6upITnH_ST.mp4" type="video/mp4">
+    <video height="400" width="800" controls autoplay>
+        <source src="https://v.ftcdn.net/15/99/46/69/700_F_1599466929_kEoPz5dXQQhN9rtUxPEhVQP7X6upITnH_ST.mp4"
+            type="video/mp4">
     </video>
+
 
 </body>
 

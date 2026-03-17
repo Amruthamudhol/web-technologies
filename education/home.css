@@ -1,0 +1,13 @@
+.noto-sans-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
