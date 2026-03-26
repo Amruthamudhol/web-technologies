@@ -1,13 +1,51 @@
-.noto-sans-jp {
-    font-family: 'Noto Sans JP', sans-serif;
+/* External CSS */
+
+body{
+background: #eef2f7;
+margin:0;
 }
 
-
-nav ul {
-    list-style: none;
+nav{
+background:#34495e;
+padding:15px;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+nav ul{
+list-style:none;
+display:flex;
+justify-content:space-around;
+margin:0;
+padding:0;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+nav ul li a:hover
+
+table{
+width:80%;
+margin:20px auto;
+border-collapse:collapse;
+}
+
+th{
+background:#34495e;
+color:white;
+}
+
+td,th{
+padding:12px;
+border:1px solid #ccc;
+}
+
+img{
+border-radius:15px;
+}
+
+video{
+border-radius:15px;
 }
