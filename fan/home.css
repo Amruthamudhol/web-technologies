@@ -1,6 +1,103 @@
-.noto-sans-jp {
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;   /* normal */
-  font-style: normal;
+/* Body */
+body{
+margin:0;
+font-family: 'Noto Sans JP', sans-serif;
+background:#f4f6f8;
+}
+
+/* Navbar */
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:50px;
+    padding:0;
+    background:#2c3e50;
+}
+
+/* Headings */
+h1{
+text-align:center;
+color:#2c3e50;
+}
+
+h2,h3,h4,h5,h6{
+color:#8e44ad;
+padding-left:10px;
+}
+
+/* Paragraph */
+p{
+padding:10px 20px;
+line-height:1.6;
+}
+
+/* Lists */
+ul,ol{
+width:50%;
+margin:20px auto;
+background:white;
+padding:15px;
+border-radius:10px;
+}
+
+/* Links */
+a{
+display:block;
+margin-left:20px;
+color:#8e44ad;
+font-weight:bold;
+padding:5px;
+text-decoration:none;
+}
+
+a:hover
+
+/* Table */
+table{
+width:85%;
+margin:20px auto;
+border-collapse:collapse;
+background:white;
+}
+
+th{
+background:#8e44ad;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+}
+
+/* Images */
+img{
+display:block;
+margin:20px auto;
+border-radius:10px;
+}
+
+/* Video */
+video{
+display:block;
+margin:20px auto;
+border-radius:10px;
+}
+
+/* Map */
+iframe{
+display:block;
+margin:20px auto;
+border-radius:10px;
+}
+
+/* Section spacing */
+section{
+margin-top:20px;
+}
+
+/* Horizontal line */
+hr{
+margin:30px 0;
 }
