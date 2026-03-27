@@ -1,0 +1,4 @@
+.box {
+  background: linear-gradient(to right, hsl(138, 43%, 72%), #A4DDE7);
+  padding: 10px;
+}

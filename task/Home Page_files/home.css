@@ -1,0 +1,11 @@
+.classYellow {
+    background-color: yellow;
+}
+.classPink {
+    background-color: pink;
+}
+.border{
+    border: double 10px blue;
+    border-radius: 12px;
+    padding: 2px;
+}
